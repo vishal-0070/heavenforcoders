@@ -1,0 +1,32 @@
+.post-img img{
+    width: 100%;
+}
+.post-img{
+    height: 400px;
+    overflow: hidden;
+    
+}
+.blog-post-content{
+    /* background-color: blueviolet; */
+    text-align: center;
+}
+
+.row{
+    display: flex;
+}
+.more{
+    flex-direction: column;
+}
+.no-p{
+    padding: 0px;
+
+}
+.blogpost-meta{
+    display: flex;
+    /* background-color: brown; */
+    justify-content: space-between;
+}
+.author-info{
+    padding: 4px 12px;
+    font-family: var(--font1);
+}
